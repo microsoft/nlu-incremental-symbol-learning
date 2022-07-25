@@ -49,7 +49,7 @@ In the released configs, the data dir argument is an environment variable
 - `scripts/make_subsamples.sh`: iteratively runs sampling for each split (5000-max), curating the first one and then using those examples later. 
 - `scripts/make_subsamples_uncurated.sh`: same idea, but doesn't require curation (for non-100 splits, no curation is done).
 - `scripts/make_configs.py`: can be used to modify a base jsonnet config to change the path to the split
-- `scripts/prepare_data.sh`: Data is assumed to be pre-processed according to [Task Oriented Parsing as Dataflow Synethesis](https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis) instructions. This is a modified version of the instructions in the README there to include agent utterances and previous user turns. 
+- `scripts/prepare_data.sh`: Data is assumed to be pre-processed according to [Task Oriented Parsing as Dataflow Synthesis](https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis) instructions. This is a modified version of the instructions in the README there to include agent utterances and previous user turns. 
 - `scripts/collect_results.py`: script to collect exact match results from predictions, written to `CHECKPOINT_DIR/translate_output`. Aggregates all scores into a csv specified as an arg.
 - `experiments/calflow.sh`: main training/testing commands for calflow
 
