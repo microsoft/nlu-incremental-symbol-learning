@@ -1,0 +1,8 @@
+intent/logs
+*.pyc
+*.swp
+*.swo
+synth/data
+*/__pycache__
+*/__pycache__/*
+

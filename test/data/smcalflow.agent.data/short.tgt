@@ -1,0 +1,5 @@
+( Yield ( CreateCommitEventWrapper ( CreatePreflightEventWrapper ( & ( Event.subject_? ( ?= "baseball game" ) ) ( Event.start_? ( ?= ( DateAtTimeWithDefaults ( NextDOW ( Saturday ) ) ( NumberPM 2L ) ) ) ) ) ) ) )
+( FenceScope )
+( Yield ( AttendeesWithResponse ( Event.attendees ( singleton ( QueryEventResponse.results ( FindEventWrapperWithDefaults ( EventOnDateWithTimeRange ( EventOnDate ( Today ) ( Event.subject_? ( ?~= "dinner" ) ) ) ( Night ) ) ) ) ) ) ( ResponseStatusType.Accepted ) ) )
+( Yield ( Event.start ( singleton ( QueryEventResponse.results ( FindEventWrapperWithDefaults ( Event.subject_? ( ?~= "PR Consulting" ) ) ) ) ) ) )
+( Yield ( EventAttendance :event ( Execute ( refer ( extensionConstraint ( ^ ( Event ) EmptyStructConstraint ) ) ) ) :response ( ResponseStatusType.Accepted ) ) )

@@ -1,0 +1,3 @@
+__User I'm spending friday to sunday __StartOfProgram
+__User make a meet with Kim __StartOfProgram ( Yield ( CreateCommitEventWrapper ( CreatePreflightEventWrapper ( Event.attendees? ( AttendeeListHasRecipient ( Execute ( refer ( extensionConstraint ( RecipientWithNameLike ( ^ ( Recipient ) EmptyStructConstraint ) ( PersonName.apply "Kim" ) ) ) ) ) ) ) ) ) ) entity@1279245247 __User Either one will be fine. Is there anything on the calendar with Elli Parker and her team tomorrow? __StartOfProgram
+__User what 's the forecast ? __Agent It is clear with a high of 0 . 00 ° F and a low of 0 . 00 ° F today . __User what about tomorrow ? __StartOfProgram

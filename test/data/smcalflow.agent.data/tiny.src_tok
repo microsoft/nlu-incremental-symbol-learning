@@ -1,0 +1,6 @@
+__User What do I have scheduled for Wednesday afternoon ? __StartOfProgram
+__User What do I have scheduled for Wednesday afternoon ? __Agent I found 1 matching event on your calendar . It 's " volleyball " from 3 : 00 to 3 : 30 PM . __User i found i matching event on your calendar.it volley ball __StartOfProgram
+__User i found i matching event on your calendar.it volley ball __Agent Let me know if there 's anything else I can help you with . __User Tonight is the concert fundraiser . __StartOfProgram
+__User Tonight is the concert fundraiser . __Agent Does one of these work ? __User I 'll take the bottom one __StartOfProgram
+__User I 'll take the bottom one __Agent I 've put that on your calendar . __User Let 's extend it to 9 PM at night . __StartOfProgram
+__User Let 's extend it to 9 PM at night . __Agent How is this ? __User Yes it looks correct __StartOfProgram

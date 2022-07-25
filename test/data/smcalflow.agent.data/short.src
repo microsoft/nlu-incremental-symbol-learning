@@ -1,0 +1,5 @@
+__User create baseball game on saturday at 2 __StartOfProgram
+__User Change the reservation for tonight to 6 people from 4. __StartOfProgram
+__User Change the reservation for tonight to 6 people from 4. __Agent Sorry, I can only help with your calendar. __User Who is coming to dinner with me tonight? __StartOfProgram
+__User I forgot what time is the PR Consulting? __StartOfProgram
+__User I forgot what time is the PR Consulting? __Agent The event matching "PR Consulting" is today at 9:00 AM. __User Ok cool, can you accept that? __StartOfProgram

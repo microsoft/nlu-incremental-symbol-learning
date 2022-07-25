@@ -1,0 +1,6 @@
+( Yield ( FindEventWrapperWithDefaults ( EventOnDateWithTimeRange ( EventOnDate ( NextDOW ( Wednesday ) ) ( ^ ( Event ) EmptyStructConstraint ) ) ( Afternoon ) ) ) )
+( PleasantryAnythingElseCombined )
+( Yield ( CreateCommitEventWrapper ( CreatePreflightEventWrapper ( & ( Event.subject_? ( ?= " concert fundraiser " ) ) ( Event.start_? ( DateTimeConstraint ( Night ) ( Today ) ) ) ) ) ) )
+( Yield ( Execute ( ChooseCreateEvent ( BottomResult ) ( refer ( ^ ( Dynamic ) ActionIntensionConstraint ) ) ) ) )
+( Yield ( UpdateCommitEventWrapper ( UpdatePreflightEventWrapper ( Event.id ( Execute ( refer ( extensionConstraint ( ^ ( Event ) EmptyStructConstraint ) ) ) ) ) ( Event.end_? ( DateTime.time_? ( ?= ( NumberPM 9L ) ) ) ) ) ) )
+( Yield ( Execute ( ^ ( Dynamic ) ConfirmAndReturnAction ) ) )
