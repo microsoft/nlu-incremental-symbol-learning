@@ -107,7 +107,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Note that our data release is effectively a repartitioning of the SMCalFlow dataset and an English intent recognition dataset released by Liu et al. The SMCalFlow dataset
 is available [here](https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis) under a MIT license, which is available
