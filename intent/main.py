@@ -231,6 +231,8 @@ def main(args):
                     json.dump(data_to_write, f1)
                 torch.save(model.state_dict(), checkpoint_dir.joinpath("best.th"))
                 epochs_without_change = 0
+            else:
+                epochs_without_change += 1
 
             if epochs_without_change > args.patience:
                 print(f"Ran out of patience!")
