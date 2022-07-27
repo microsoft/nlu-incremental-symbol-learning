@@ -6,9 +6,9 @@ MISO stands for Multimodal Inputs, Semantic Outputs. It is a deep learning frame
 - [AMR Parsing as Sequence-to-Graph Transduction, Zhang et al., ACL 2019](https://www.aclweb.org/anthology/P19-1009/) 
 - [Broad-Coverage Semantic Parsing as Transduction, Zhang et al., EMNLP 2019](https://www.aclweb.org/anthology/D19-1392/) 
 - [Universal Decompositional Semantic Parsing, Stengel-Eskin et al. ACL 2020](https://www.aclweb.org/anthology/2020.acl-main.746/) 
-- [Joint Universal Syntactic and Semantic Parsing, Stengel-Eskin et al., TACL 2021](#TODO) 
+- [Joint Universal Syntactic and Semantic Parsing, Stengel-Eskin et al., TACL 2021](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00396/106796/Joint-Universal-Syntactic-and-Semantic-Parsing) 
 
-If you use the code in a publication, please do cite these works. 
+If you use the code in a publication, please do cite these papers. 
 
 ## What is Universal Decompositional Semantics? 
 [Universal Decompositional Semantics (UDS)](http://decomp.io/projects/decomp-toolkit/) is a flexible semantic formalism built on [English Web Treebank Universal Dependencies](https://universaldependencies.org/en/overview/introduction.html) parses. 
