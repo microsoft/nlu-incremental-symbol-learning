@@ -1,6 +1,7 @@
 ## Intent recognition
 In addition to semantic parsing, we explore intent recognition for the [nlu_evaluation_data](https://huggingface.co/datasets/nlu_evaluation_data) dataset. 
 
+
 The intent recognition data is available via huggingface datasets. 
 
 ## Files
@@ -28,4 +29,12 @@ For reproducibility, the data (which can be loaded via Huggingface Datasets) is 
 - `data/nlu_eval_data`: the splits for all experiments except the "no source dilution" setting.
 - `data/nlu_eval_data_<num>_no_source`: the splits for experiments without source dilution. Here, the train files have been modified to remove source-diluting examples. Since source-diluting examples are different for each intent, there is a separate split per intent. 
 
+The mapping between the number IDs of intents and their labels can be found [here](https://huggingface.co/datasets/nlu_evaluation_data). We use the following intents: 
 
+|intent | ID | 
+-------------
+| email_query | 15 | 
+| email_querycontact | 16  |
+| general_quirky | 27 | 
+| play_radio | 50 | 
+| transport_traffic | 66 | 
