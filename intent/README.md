@@ -32,7 +32,7 @@ For reproducibility, the data (which can be loaded via Huggingface Datasets) is 
 The mapping between the number IDs of intents and their labels can be found [here](https://huggingface.co/datasets/nlu_evaluation_data). We use the following intents: 
 
 |intent | ID | 
--------------
+|-------| ------ |
 | email_query | 15 | 
 | email_querycontact | 16  |
 | general_quirky | 27 | 
