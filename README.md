@@ -31,6 +31,16 @@ tar -xzvf models.tar.gz
 
 The models distributed are the full dataset models reported in Table 1. The other models are too numerous to be distributed but can be replicated using the config files. 
 
+## MISO model
+The semantic parsing experiments in this paper use the MISO parser, which was developed across a series of papers: 
+
+- [AMR Parsing as Sequence-to-Graph Transduction, Zhang et al., ACL 2019](https://www.aclweb.org/anthology/P19-1009/) 
+- [Broad-Coverage Semantic Parsing as Transduction, Zhang et al., EMNLP 2019](https://www.aclweb.org/anthology/D19-1392/) 
+- [Universal Decompositional Semantic Parsing, Stengel-Eskin et al. ACL 2020](https://www.aclweb.org/anthology/2020.acl-main.746/) 
+- [Joint Universal Syntactic and Semantic Parsing, Stengel-Eskin et al., TACL 2021](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00396/106796/Joint-Universal-Syntactic-and-Semantic-Parsing) 
+
+More information on MISO can be found [here](MISO_README.md)
+
 ## File Organization 
 Important directories: 
 - `miso`: contains all the parsing code for the different MISO models 
